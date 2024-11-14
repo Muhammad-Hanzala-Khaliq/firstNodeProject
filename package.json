@@ -1,0 +1,20 @@
+{
+  "name": "selfmadeprojectusingnodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.jsx -e jsx,hbs,js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.8.1",
+    "validator": "^13.12.0"
+  }
+}
